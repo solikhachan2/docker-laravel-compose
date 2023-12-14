@@ -1,9 +1,9 @@
 # Set up
  
 1. Pull the Laravel project into the **`src`** folder:
-    
-2. Update mysql.env the same as laravel project .env
-    
+2. Update the 'mysql.env' file to match the configuration in the Laravel project's '.env' file.
+3. Ensure that the PHP Docker version specified in 'php.root.dockerfile' matches the PHP version specified in the Laravel project's 'composer.json'
+4. If the Laravel root project is located in the 'public' folder, modify the root directory in the 'default.conf' file from '/var/www/html/' to '/var/www/html/public/'."
 
 ## **Building and Running Docker Containers**
 
